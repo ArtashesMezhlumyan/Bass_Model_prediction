@@ -148,6 +148,14 @@ ggplot(data = nokia_new, aes(x = year, y = sales)) +
 ```
 As you can see, I have the data of real Nokia sales which does not corespond with our prediction. The problem is that from 2007 new players with new ideas enter the market which made Nokia to lose its place in the market.
 
+
+6) Estimate the number of adopters by period. Thus, you will need to estimate the potential market share. You can use Fermi’s logic here as well.
+
+1 - Population Estimate: 7 billion
+2 - Adoption Rate: lets assume that every year starting from 2007 the percentage of smartphone users worldwide increases by 8% yearly.
+3 - Adpoters: 8% is 560 million people.
+
+
 ```{r}
 
 ```
